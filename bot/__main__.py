@@ -1,3 +1,5 @@
+import keepalive
+
 from . import LOGGER, bot_loop
 from .core.telegram_manager import TgClient
 from .core.config_manager import Config
